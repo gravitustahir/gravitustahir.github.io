@@ -46,7 +46,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .back-to-top i {
   font-size: 28px;
-  color: white;
+  color: ;
   line-height: 0;
 }
 .back-to-top:hover {
@@ -54,7 +54,7 @@ h1, h2, h3, h4, h5, h6 {
   color: black;
   border-color: #5bbe63;
 }
-.back-to-top i :hover {
+.back-to-top i:hover {
 
   color: black;
 }
