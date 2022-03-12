@@ -30,7 +30,7 @@ h1, h2, h3, h4, h5, h6 {
 /*-------------------------------------------------------------
 # Back to top button
 -------------------------------------------------------------*/
-.back-to-top{
+.back-to-top {
   position: fixed;
   visibility: hidden;
   opacity: 0;
@@ -38,24 +38,21 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 15px;
   z-index: 996;
   background: #5bbe63;
-  border: 2px solid #5bbe63;
   width: 40px;
   height: 40px;
   border-radius: 50px;
   transition: all 0.4s;
 }
 .back-to-top i {
-  font-size: 28px;
+  font-size: 35px;
   color: white;
   line-height: 0;
+  border-radius: 50%;
+  border: 2px solid #5bbe63;
 }
 .back-to-top i:hover {
 color: #5bbe63;
-
-}
-.back-to-top:hover {
-  background-color: #ffffff;
-
+background-color: #ffffff;
 }
 .back-to-top.active{
   visibility: visible;
